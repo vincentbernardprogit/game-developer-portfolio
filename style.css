@@ -1,3 +1,10 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "MainFont", sans-serif;
+}
+
+@font-face {
+    font-family: "MainFont";
+    src: url("fonts/HouseofTerror\ Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
