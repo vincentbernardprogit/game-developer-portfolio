@@ -4,94 +4,156 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <link rel="stylesheet" href="css/style.css">
+        <style type="text/css">
+            body {
+                font-family: "MainFont", sans-serif;
+            }
+
+            @font-face {
+                font-family: "MainFont";
+                src: url("fonts/HouseofTerror\ Regular.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+        </style>
 
         <title>Vincent Bernard - Portfolio</title>
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                        <a class="nav-link" href="#">Profile</a>
-                        <a class="nav-link" href="#">Work</a>
-                        <a class="btn btn-primary highlighted" href="#">Contact</a>
+    <body id="home" class="scrollspy">
+        <div class="navbar-fixed">
+            <nav class="blue darken-2">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#profile">My Profile</a></li>
+                            <li><a href="#portfolio">My Portfolio</a></li>
+                            <li><a href="#contact">Contact Me</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
+
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#profile">My Profile</a></li>
+            <li><a href="#portfolio">My Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
         
-        <div class="jumbotron jumbotron-fluid">
+        <div id="about" class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4"></h1>
-                <a href="#" class="btn btn-primary highlighted">My Work</a>
+                <h1 class="display-4">Get work done <span>faster</span><br/> and <span>better</span> with me</h1>
             </div>
         </div>
         
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-10 info-panel">
+                <div class="col-12 info-panel">
                     <div class="row">
                         <div class="col-lg">
-                            <img src="" alt="" class="float-left">
-                            <h3>Panel 1</h3>
+                            <a href="#profile"><img src="" alt="" class="float-left"></a>
+                            <h3>My Profile</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="col-lg">
-                            <img src="" alt="" class="float-left">
-                            <h3>Panel 2</h3>
+                            <a href="#portfolio"><img src="" alt="" class="float-left"></a>
+                            <h3>My Portfolio</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="col-lg">
-                            <img src="" alt="" class="float-left">
-                            <h3>Panel 3</h3>
+                            <a href="#contact"><img src="" alt="" class="float-left"></a>
+                            <h3>Contact Me</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row profile">
-                <div class="col-lg-6">
-                    <img src="" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-5">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-            
-            <div class="row work">
-                <div class="col-lg-6">
-                    <img src="" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-5">
-                    <h3></h3>
-                    <p></p>
-                    <a href="#" class="btn btn-primary highlighted">Work</a>
-                </div>
-            </div>
-
-            <div class="row contact">
-                <div class="col-lg-6">
-                    <img src="" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-5">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-            
-            <div class="row footer">
-                <div class="col text-center">
-                    <p>© 2026 Vincent Bernard. All Rights Reserved.</p>
-                </div>
-            </div>
         </div>
+
+        <footer class="blue darken-2 white-text center">
+            <p>© 2026 Vincent Bernard. All Rights Reserved.</p>
+        </footer>
+
+        <section id="profile" class="profile scrollspy">
+            <div class="container">
+                <h3 class="light center grey-text text-darken-3">My Profile</h3>
+                <div class="row">
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio scrollspy">
+            <div class="container">
+                <h3 class="light center grey-text text-darken-3">My Portfolio</h3>
+                <div class="row">
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact scrollspy">
+            <div class="container">
+                <h3 class="light center grey-text text-darken-3">Contact Me</h3>
+                <div class="row">
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col m3 s12">
+                        <img src="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            const sideNav = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(sideNav);
+
+            const materialboxed=document.querySelectorAll(".materialboxed")
+            M.Materialbox.init(materialboxed)
+
+            const scroll=document.querySelectorAll(".scrollspy")
+            M.ScrollSpy.init(scroll, {
+                scrollOffset: 50
+            })
+        </script>
     </body>
 </html>
