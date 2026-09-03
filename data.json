@@ -1,0 +1,88 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "title": "Blackjack",
+            "project_type": "Personal Project",
+            "genre": "Card",
+            "subgenre": "Gambling",
+            "description": "A casual Blackjack game built with vanilla JavaScript.",
+            "technology": ["HTML", "CSS", "JavaScript", "Git", "GitHub"],
+            "platform": "Web",
+            "github_link": "https://github.com/vincentbernardprogit/blackjack",
+            "web_link": "https://vincentbernardprogit.github.io/blackjack/"
+        },
+        {
+            "id": 2,
+            "title": "Whack a Mole",
+            "project_type": "Personal Project",
+            "genre": "Casual",
+            "subgenre": "Point-and-Click",
+            "description": "A casual Whack-a-Mole game built with vanilla JavaScript.",
+            "technology": ["HTML", "CSS", "JavaScript", "Adobe Photoshop CC", "Git", "GitHub"],
+            "platform": "Web",
+            "github_link": "https://github.com/vincentbernardprogit/whack-a-mole",
+            "web_link": "https://vincentbernardprogit.github.io/whack-a-mole/"
+        },
+        {
+            "id": 3,
+            "title": "Halloween Memo",
+            "project_type": "Personal Project",
+            "genre": "Puzzle",
+            "subgenre": "Memory",
+            "description": "A casual memory game built with React.",
+            "technology": ["HTML", "CSS", "JavaScript", "React v18.2.0", "Git", "GitHub"],
+            "platform": "Web",
+            "github_link": "https://github.com/vincentbernardprogit/halloween-memo",
+            "web_link": "https://vincentbernardprogit.github.io/halloween-memo/"
+        },
+        {
+            "id": 4,
+            "title": "Spooky Forest",
+            "project_type": "Personal Project",
+            "genre": "Casual",
+            "subgenre": "Endless Runner",
+            "description": "A casual endless runner game built with Unity 2019.",
+            "technology": ["Unity 2019", "Git", "Git LFS", "GitHub"],
+            "platform": "Web",
+            "github_link": "https://github.com/vincentbernardprogit/SpookyForest",
+            "web_link": "https://vincentbernardprogit.github.io/SpookyForest/"
+        },
+        {
+            "id": 5,
+            "title": "Superclean",
+            "project_type": "Personal Project",
+            "genre": "Action",
+            "subgenre": "Platformer",
+            "description": "",
+            "technology": ["Unity 2019", "Adobe Photoshop CC", "Git", "Git LFS", "GitHub"],
+            "platform": "",
+            "github_link": "",
+            "web_link": ""
+        },
+        {
+            "id": 6,
+            "title": "Escape",
+            "project_type": "Personal Project",
+            "genre": "Action",
+            "subgenre": "Maze",
+            "description": "A casual maze game built with Unity 6.",
+            "technology": ["Unity 6", "Git", "Git LFS", "GitHub"],
+            "platform": "Web",
+            "github_link": "https://github.com/vincentbernardprogit/Escape",
+            "web_link": "https://vincentbernardprogit.github.io/Escape/"
+        },
+        {
+            "id": 7,
+            "title": "Remain",
+            "project_type": "Personal Project",
+            "genre": "Action",
+            "subgenre": "First-Person Shooter (FPS)",
+            "description": "A casual First-Person Shooter game built with Unity 6.",
+            "technology": ["Unity 6", "Git", "Git LFS", "GitHub"],
+            "platform": "Web",
+            "github_link": "https://github.com/vincentbernardprogit/Remain",
+            "web_link": "https://vincentbernardprogit.github.io/Remain/"
+        }
+    ]
+}
