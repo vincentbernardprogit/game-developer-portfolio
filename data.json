@@ -3,6 +3,7 @@
         {
             "id": 1,
             "title": "Blackjack",
+            "image": "../images/blackjack_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Card",
             "subgenre": "Gambling",
@@ -15,11 +16,12 @@
         {
             "id": 2,
             "title": "Whack a Mole",
+            "image": "../images/whack_a_mole_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Casual",
             "subgenre": "Point-and-Click",
             "description": "A casual Whack-a-Mole game built with vanilla JavaScript.",
-            "technology": ["HTML", "CSS", "JavaScript", "Adobe Photoshop CC", "Git", "GitHub"],
+            "technology": ["HTML", "CSS", "JavaScript", "Adobe Photoshop", "Git", "GitHub"],
             "platform": "Web",
             "github_link": "https://github.com/vincentbernardprogit/whack-a-mole",
             "web_link": "https://vincentbernardprogit.github.io/whack-a-mole/"
@@ -27,6 +29,7 @@
         {
             "id": 3,
             "title": "Halloween Memo",
+            "image": "../images/halloween_memo_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Puzzle",
             "subgenre": "Memory",
@@ -39,6 +42,7 @@
         {
             "id": 4,
             "title": "Spooky Forest",
+            "image": "../images/spooky_forest_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Casual",
             "subgenre": "Endless Runner",
@@ -50,19 +54,8 @@
         },
         {
             "id": 5,
-            "title": "Superclean",
-            "project_type": "Personal Project",
-            "genre": "Action",
-            "subgenre": "Platformer",
-            "description": "",
-            "technology": ["Unity 2019", "Adobe Photoshop CC", "Git", "Git LFS", "GitHub"],
-            "platform": "",
-            "github_link": "",
-            "web_link": ""
-        },
-        {
-            "id": 6,
             "title": "Escape",
+            "image": "../images/escape_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Action",
             "subgenre": "Maze",
@@ -71,18 +64,6 @@
             "platform": "Web",
             "github_link": "https://github.com/vincentbernardprogit/Escape",
             "web_link": "https://vincentbernardprogit.github.io/Escape/"
-        },
-        {
-            "id": 7,
-            "title": "Remain",
-            "project_type": "Personal Project",
-            "genre": "Action",
-            "subgenre": "First-Person Shooter (FPS)",
-            "description": "A casual First-Person Shooter game built with Unity 6.",
-            "technology": ["Unity 6", "Git", "Git LFS", "GitHub"],
-            "platform": "Web",
-            "github_link": "https://github.com/vincentbernardprogit/Remain",
-            "web_link": "https://vincentbernardprogit.github.io/Remain/"
         }
     ]
 }
