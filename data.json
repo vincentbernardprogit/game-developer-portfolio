@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Blackjack",
-            "image": "../images/blackjack_thumbnail_1.png",
+            "image": "images/blackjack_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Card",
             "subgenre": "Gambling",
@@ -16,7 +16,7 @@
         {
             "id": 2,
             "title": "Whack a Mole",
-            "image": "../images/whack_a_mole_thumbnail_1.png",
+            "image": "images/whack_a_mole_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Casual",
             "subgenre": "Point-and-Click",
@@ -29,7 +29,7 @@
         {
             "id": 3,
             "title": "Halloween Memo",
-            "image": "../images/halloween_memo_thumbnail_1.png",
+            "image": "images/halloween_memo_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Puzzle",
             "subgenre": "Memory",
@@ -42,7 +42,7 @@
         {
             "id": 4,
             "title": "Spooky Forest",
-            "image": "../images/spooky_forest_thumbnail_1.png",
+            "image": "images/spooky_forest_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Casual",
             "subgenre": "Endless Runner",
@@ -55,7 +55,7 @@
         {
             "id": 5,
             "title": "Escape",
-            "image": "../images/escape_thumbnail_1.png",
+            "image": "images/escape_thumbnail_1.png",
             "project_type": "Personal Project",
             "genre": "Action",
             "subgenre": "Maze",
